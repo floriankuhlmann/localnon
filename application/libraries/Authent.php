@@ -31,6 +31,7 @@ class Authent {
 			$this->logged_in = FALSE;
 			//echo "Authent false";
 		};
+		
 		print_r($this->CI->session->all_userdata());*/
 	
 	} //end __contruct()
