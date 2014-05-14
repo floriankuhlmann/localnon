@@ -9,7 +9,7 @@ public function __construct()
 		$this->load->helper('url');
     	$this->load->library('authent');	
 		
-		$this->data['title'] = $this->config->item('local_non_title', 'LocalNonApp');
+		$this->data['title'] = $this->config->item('local_non_title', 'LocalNonAppConfig');
 		$this->data['pageclass'] = "page";
 
     }
@@ -17,7 +17,7 @@ public function __construct()
 	public function index()
 	{
 		if ($this->authent->is_logged_in()) {
-			$this->data['pagetitle'] = $this->config->item('local_non_title', 'LocalNonApp');
+			$this->data['pagetitle'] = $this->config->item('local_non_title', 'LocalNonAppConfig');
 			$this->data['artistname'] = "";
 			$this->data['pageclass'] = "localnonoffline";		
 			$go = 'local/'.$this->uri->segment(2);

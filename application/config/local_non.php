@@ -1,11 +1,17 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+/* page title */
+$config['LocalNonAppConfig']['local_non_title'] = "the local non";
 
-$config['LocalNonApp']['local_non_title'] = "the local non";
+
+/* set the active position 
+this is good for debugging or if you do the setup at home or in your studio and not at the final destination
+*/
+$config['LocalNonAppConfig']['active_position'] = "position1";
 
 
-
-/* Example values */
+/* Example values my office and studio
+*/
 
 /* 
 				Kirchfeldstraße 112				
@@ -21,7 +27,7 @@ $config['LocalNonApp']['local_non_title'] = "the local non";
 				lat 51.21100000		...		lat 51.21100000
 */
 
-$config['kirchfeld']['location'] = "kirchfeldstr-7";
+$config['position1']['location'] = "kirchfeldstr-7";
 
 /*
 |--------------------------------------------------------------------------
@@ -32,9 +38,9 @@ $config['kirchfeld']['location'] = "kirchfeldstr-7";
 |
 */
 
-$config['kirchfeld']['local_non_longitude_west_border']	= '6.78250000';
-$config['kirchfeld']['local_non_longitude_center']		= '6.78350000';
-$config['kirchfeld']['local_non_longitude_east_border']	= '6.78450000';
+$config['position1']['local_non_longitude_west_border']	= '6.78250000';
+$config['position1']['local_non_longitude_center']		= '6.78350000';
+$config['position1']['local_non_longitude_east_border']	= '6.78450000';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,12 +50,14 @@ $config['kirchfeld']['local_non_longitude_east_border']	= '6.78450000';
 | The location for the local non
 |
 */
-$config['kirchfeld']['local_non_latitude_south_border']		= '51.21100000';
-$config['kirchfeld']['local_non_latitude_center']			= '51.21200000';
-$config['kirchfeld']['local_non_latitude_north_border']		= '51.21300000';
+$config['position1']['local_non_latitude_south_border']		= '51.21100000';
+$config['position1']['local_non_latitude_center']			= '51.21200000';
+$config['position1']['local_non_latitude_north_border']		= '51.21300000';
 
 
-/* Example values */
+
+/* Example values my homebase
+*/
 
 /* 
 				Antoniusstrasse 7				
@@ -64,7 +72,7 @@ $config['kirchfeld']['local_non_latitude_north_border']		= '51.21300000';
 				lat 51.21200000		...		lat 51.21200000
 */
 
-$config['antonius']['location'] = "antoniusstr-7";
+$config['position2']['location'] = "antoniusstr-7";
 
 /*
 |--------------------------------------------------------------------------
@@ -75,9 +83,9 @@ $config['antonius']['location'] = "antoniusstr-7";
 |
 */
 
-$config['antonius']['local_non_longitude_west_border']	= '6.78450000';
-$config['antonius']['local_non_longitude_center']		= '6.78665260';
-$config['antonius']['local_non_longitude_east_border']	= '6.78823000';
+$config['position2']['local_non_longitude_west_border']	= '6.78450000';
+$config['position2']['local_non_longitude_center']		= '6.78665260';
+$config['position2']['local_non_longitude_east_border']	= '6.78823000';
 
 /*
 |--------------------------------------------------------------------------

@@ -8,7 +8,7 @@ class Nonlocation {
 	public function __construct() {
 
 		$this->CI =& get_instance();
-		$active_non = 'kirchfeld';
+		$active_non = $this->CI->config->item('active_position', 'LocalNonAppConfig');
 
 		$this->local_non['longitude_west_border'] = $this->CI->config->item('local_non_longitude_west_border', $active_non);
 		$this->local_non['longitude_center'] = $this->CI->config->item('local_non_longitude_center', $active_non);
