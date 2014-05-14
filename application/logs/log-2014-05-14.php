@@ -744,3 +744,54 @@ DEBUG - 2014-05-14 12:27:30 --> Helper loaded: url_helper
 DEBUG - 2014-05-14 12:27:30 --> File loaded: application/views/assets/jquery.php
 DEBUG - 2014-05-14 12:27:30 --> Final output sent to browser
 DEBUG - 2014-05-14 12:27:30 --> Total execution time: 0.0536
+DEBUG - 2014-05-14 12:41:31 --> Config Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Hooks Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Utf8 Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> UTF-8 Support Enabled
+DEBUG - 2014-05-14 12:41:31 --> URI Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Router Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Output Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Security Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Input Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-05-14 12:41:31 --> Language Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Loader Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Config file loaded: application/config/local_non.php
+DEBUG - 2014-05-14 12:41:31 --> Helper loaded: cookie_helper
+DEBUG - 2014-05-14 12:41:31 --> Session Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Helper loaded: string_helper
+DEBUG - 2014-05-14 12:41:31 --> Encrypt Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Session routines successfully run
+DEBUG - 2014-05-14 12:41:31 --> Controller Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Helper loaded: url_helper
+DEBUG - 2014-05-14 12:41:31 --> File loaded: application/views/local/florian_kuhlmann.php
+DEBUG - 2014-05-14 12:41:31 --> Final output sent to browser
+DEBUG - 2014-05-14 12:41:31 --> Total execution time: 0.1027
+DEBUG - 2014-05-14 12:41:31 --> Config Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Hooks Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Utf8 Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Config Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> UTF-8 Support Enabled
+DEBUG - 2014-05-14 12:41:31 --> Hooks Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Config Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Hooks Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Utf8 Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> UTF-8 Support Enabled
+DEBUG - 2014-05-14 12:41:31 --> Utf8 Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> UTF-8 Support Enabled
+DEBUG - 2014-05-14 12:41:31 --> Config Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Hooks Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> URI Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Utf8 Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> URI Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> UTF-8 Support Enabled
+DEBUG - 2014-05-14 12:41:31 --> Router Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Router Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> URI Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> URI Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Router Class Initialized
+DEBUG - 2014-05-14 12:41:31 --> Router Class Initialized
+ERROR - 2014-05-14 12:41:32 --> 404 Page Not Found --> stuff
+ERROR - 2014-05-14 12:41:32 --> 404 Page Not Found --> stuff
+ERROR - 2014-05-14 12:41:32 --> 404 Page Not Found --> stuff
+ERROR - 2014-05-14 12:41:32 --> 404 Page Not Found --> stuff
