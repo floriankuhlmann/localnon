@@ -17,13 +17,26 @@ class World extends CI_Controller {
 		
     	// log_message('info', 'Aktuelle Position des Local Non'.implode(",", $params));
     	$this->load->library('authent');
-    		
+    	$this->load->library('nonlocation');
+        $this->data['long_east'] = $this->nonlocation->get_long_east();
+        $this->data['long_west'] = $this->nonlocation->get_long_west();
+        $this->data['long_center'] = $this->nonlocation->get_long_center();
+        $this->data['lat_north'] = $this->nonlocation->get_lat_north();
+        $this->data['lat_south'] = $this->nonlocation->get_lat_south();
+        $this->data['lat_center'] = $this->nonlocation->get_lat_center(); 
+	
     }
 	 
 	public function index()
 	{		
 		$this->session->sess_destroy();
-		$this->load->view('world_index');
+
+        /* the following helps to make it a little bit more difficult to hack the js geolocation
+        but of course its no real help against someone with a little codeknowledge of js/html/php */
+        //$this->data['lalorand'] = rand(5, 15);
+        //$this->session->set_userdata('lalorand', $this->data['lalorand']);
+        //print_r($this->session->all_userdata());
+        $this->load->view('world_index', $this->data);
 	}
 	
 	public function checking_location() {
@@ -33,11 +46,7 @@ class World extends CI_Controller {
     	
    		
         $this->authent->authenticate_location_check($long,$lat);
-        //$this->authent->authenticate_location_check(57.21200000,$lat);
-        /*$this->data['longitude'] = $this->authent->get_longitude();
-       	$this->data['latitude'] = $this->authent->get_latitude();
-       	$this->data['loginstatus'] = $this->authent->is_logged_in();*/
-        
+
         //echo $this->session->userdata('logged_in')."<br>"; 	
        	// print_r($this->session->all_userdata());
         

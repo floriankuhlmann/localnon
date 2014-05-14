@@ -17,7 +17,7 @@ body {
 .container {
 	width:100%;
 	padding-top:5em;
-	background: #c5d7a5 /*url(<?php echo base_url();?>img/local_non_sign_big.png) fixed repeat*/;	
+	background: /*url(<?php echo base_url();?>img/local_non_sign_big.png) fixed repeat*/;	
 	color:#000;
 }
 
