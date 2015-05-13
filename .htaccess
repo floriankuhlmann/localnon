@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteBase /~florian/localnon_app/
+RewriteBase /~florian/local-non-sculpture/
 
 RewriteCond $1 !^(index\.php|images|robots\.txt|css)
 RewriteCond %{REQUEST_FILENAME} !-f
