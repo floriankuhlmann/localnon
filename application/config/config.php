@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/~florian/local-non-sculpture/';
-
+$config['base_url']	= 'http://www.floriankuhlmann.com/localnonsculpture/app/';
+# $config['base_url']   = '';
 /*
 |--------------------------------------------------------------------------
 | Index File
