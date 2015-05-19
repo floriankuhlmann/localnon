@@ -1,0 +1,1 @@
+david180 is a gif made out of images [from different angels] people posted on the internet after visiting the statue.

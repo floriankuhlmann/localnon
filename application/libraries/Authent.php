@@ -17,7 +17,7 @@ class Authent {
 
 
 	public function authenticate_location_check($longitude = NULL, $latitude= NULL) {	
-		
+		// echo $longitude."lat".$latitude;
 		if($this->is_logged_in() == "TRUE") {
 		
 			$logged_in = TRUE;
@@ -58,7 +58,15 @@ class Authent {
 		return $logged_in;
 			
 	}
-		
+	
+	public function logg_in() {
+		$this->CI->session->set_userdata('logged_in', 'TRUE');
+	}
+	
+	public function logg_out() {
+		$this->CI->session->set_userdata('logged_in', 'FALSE');
+	}	
+	
 }
 
 /* End of file welcome.php */

@@ -41,9 +41,8 @@
 $route['404_override'] = '';
 
 $route['default_controller'] = 'world';
-
 $route['checking_location/(:any)'] = "world/checking_location/$1";
-$route['assets/(:any)'] = "assets/$1";
+$route['local/showall'] = "local/showall";
 $route['local/(:any)'] = "local/index/$1";
 
 //$route['(:any)'] = 'world/index/$1';

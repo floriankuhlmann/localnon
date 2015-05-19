@@ -1,0 +1,1 @@
+User Right #1 - The Right to see the Computer

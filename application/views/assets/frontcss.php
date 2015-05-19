@@ -94,9 +94,9 @@ hr {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Oxygen', sans-serif;
+	/*font-family: 'Oxygen', sans-serif;
 	font-family: 'Karla', sans-serif;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Libre Baskerville', serif;*/
 	color:#a35518;
 	
 }

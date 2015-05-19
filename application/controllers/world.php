@@ -11,7 +11,7 @@ class World extends CI_Controller {
 		parent::__construct();
 		$this->load->helper('url');
 		$this->load->helper('cookie');
-				
+    	$this->load->helper('directory');				
 		$this->data['title'] = "#LocalNonOffLine";
 		$this->data['pageclass'] = "page";
 		
@@ -43,13 +43,15 @@ class World extends CI_Controller {
 				
     	$long = $this->input->post('longitude', TRUE) - 321;
     	$lat = $this->input->post('latitude', TRUE) - 321;
-    	
+
    		
         $this->authent->authenticate_location_check($long,$lat);
 
+		$this->data['map'] = directory_map('assets/artwork/',3);
+		// print_r($this->data['map']);
         //echo $this->session->userdata('logged_in')."<br>"; 	
        	// print_r($this->session->all_userdata());
-        
+        //$this->load->view('local_start_show', $this->data);
         if ($this->authent->is_logged_in()) {
         	$this->load->view('local_start_show', $this->data);
         } else {
@@ -62,6 +64,14 @@ class World extends CI_Controller {
         	$this->load->view('local_no_show', $this->data);
         }
         	
+	}
+	
+	public function sneakpreview() {
+
+		
+		$this->authent->logg_in();
+		$this->data['map'] = directory_map('assets/artwork/',3);
+		$this->load->view('local_start_show', $this->data);
 	}
 	
 	

@@ -3,12 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>LOCAL NON OFF LINE</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/foundation"/>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/frontcss"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/foundation.min.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/localnonsculpture.css"/>
 
-	<script src="<?php echo base_url();?>assets/jquery"></script>
-	<script src="<?php echo base_url();?>assets/javascript_min"></script>
-		<script src="<?php echo base_url();?>assets/js_sonic"></script>
+	<script src="<?php echo base_url();?>assets/js/vendor/modernizr.js"></script>
+	<script src="<?php echo base_url();?>assets/js/vendor/jquery.js"></script>
+	<script src="<?php echo base_url();?>assets/js/sonic.js"></script>
+	<script src="<?php echo base_url();?>assets/js/geofinder.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){ 
 			if($("#startgeochecking").length) {
@@ -21,31 +23,80 @@
 		});
 	</script>	
 </head>
-<body>
+<body class="start">
 <div class="container">
 
 	<div class="row">			
+		<!-- about -->
+		<div class="large-12 large-offset-0 medium-10 medium-offset-1 small-10 small-offset-1 border-left-open columns margin-bottom-5-em">
+			<h1 class="text-center">#LocalNonSculpture</h1>
+			<h2 class="text-center">#ADAF2015 #ThisIsSculpture</h2>
+		</div>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-5-em">
+			<h2 class="text-center">1. WTF?!?</h2><br><br>
+			<p class="text-center">
+			A #LocalNon is a site specific netbased online installation. This installation incorporates a www-webpage that presents digital artwork 
+only accessible via location-check at the area of the <a href="http://www.adaf.gr/">11th Athens Digital Arts Festival, Greek</a>.</p>
+		</div>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-10-em">
+		<p class="text-center">A #LocalNon is a sculpture made out of pure information, its dimensions in space are defined by bits, bytes, longitude and latitude and refers to the possibility of getting access to it.
+		</div>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-10-em">
+		<hr>
+		</div>
+		<!-- about -->
 
-		<div class="large-12 small-10 small-offset-1 columns border-left-open margin-bottom-2-em">
-			<h1 class="text-center">#LocalNon</h1>
+		<!-- artists -->		
+		<div class="large-12 large-offset-0 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em border-right-open">
+		<h1 class="text-center">ParticipatingArtists</h1>
 		</div>
-		<div class="large-12 small-10 small-offset-1 columns">
-		<p class="text-center">
-a local-non is a site specific netbased installation. this installation incorporates a webpage that presents digital artwork 
-<span class="background">only accessible via location-check</span> at ebertplatz in cologne, germany.</p>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-10-em">
+			<h2 class="text-center">2. WHO?</h2><br><br>
+			<p class="text-center">
+				
+				Banz & Bowinkel, Claudia Mate, Dominik Podsiadly, Eva Papamargariti, Florian Meisenberg, Galleryfist, Isabella Fürnkäs, Lorna Mills, Manuel Rossner, Ole Fach, Olia Lialina, Paul Soulellis, Ronny Szillo, Thomas Artur Spallek, Tobias Rothe, Zsolt Mesterhazy
+			</p>
 		</div>
-		<div class="large-12 small-10 small-offset-1 columns checkin margin-bottom-5-em">
-			<span id="startgeochecking">			
-			<h1 class="text-center">#ClickHeretoEnter<br>this #LocalNon</h1>
-			<h2 class="text-center"><span class="background">Access via<br>GeoLocationCheck<span></h2>
-			</span>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-10-em columns">
+		<hr>
+		</div>
+
+		<!-- artists -->
+		
+		<!-- check in -->
+		<div class="large-12 large-offset-0 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em border-left-open">
+			<h1 class="text-center">The location</h1>
+		</div>
+		
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-10-em">
+			<h2 class="text-center">3. WHERE?</h2><br><br>
+			<p class="text-center">
+				<img class="location" src="assets/img/location_athens.jpg">
+				<br><br>Diplareios School,<br> Menandrou 6, Athens 
+			</p>
+			<p  class="text-center">Lat: 37.9786119<br>Long: 23.7217339</p>
+		</div>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-10-em columns">
+		<hr>
+		</div>
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em">
+			<div id="startgeochecking" class="margin-bottom-5-em">			
+			<h1 class="text-center">Click here to enter this show</h1>
+			<h2 class="text-center">Check access now via<br><span></span>GeoLocationCheck</h2>
+			</div>
 			<br>
 			<h2 class="text-center" id="output"></h2>
 			<br>
 			<br>
 		</div>
-
-		<div class="large-12 small-10 small-offset-1 columns margin-bottom-5-em ">
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-10-em columns">
+		<hr>
+		</div>
+		<div class="medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em">
+			<p class="text-center">Idea & concept by<br><a href="http://www.floriankuhlmann.com">Florian Kuhlmann</a></p>
+		</div>
+		<!-- check in -->
+		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em ">
 			<form id="loginform" method="post" action="<?php echo base_url();?>world/checking_location" name="form">
 				<input type="hidden"  name="longitude" id="longitude">
 				<input type="hidden"  name="latitude" id="latitude">

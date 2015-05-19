@@ -1,0 +1,1 @@
+Olia Lialina, 2014: "I believe that even when it is technologically possible to produce a totally invisible computer, the user should see that there is one. Seeing the computer is a necessary pre-condition for coming to the idea to ask "what is this computer doing?" and further questions."

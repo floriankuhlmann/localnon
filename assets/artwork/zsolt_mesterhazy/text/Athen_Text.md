@@ -1,0 +1,1 @@
+#### here is a very old gif of mine for local-non-sculpture. it is entirely up to you wether you put it in or not. notes that go with it: photos from [www.dragonfur.org](http://www.dragonfur.org/firehopper/wings) , gif animation, 2004.
