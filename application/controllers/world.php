@@ -55,12 +55,12 @@ class World extends CI_Controller {
         if ($this->authent->is_logged_in()) {
         	$this->load->view('local_start_show', $this->data);
         } else {
-        	$this->load->library('rb');
+        	/*$this->load->library('rb');
 			$geodata = R::dispense('geodata');
     		$geodata->longitude = $long;
 			$geodata->latitude = $lat;
 			$geodata->logindate = date('j.n.Y G:i:s');
-    		$id = R::store($geodata);
+    		$id = R::store($geodata);*/
         	$this->load->view('local_no_show', $this->data);
         }
         	

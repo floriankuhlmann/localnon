@@ -75,7 +75,8 @@ function prepareName($dirname) {
 				 foreach ($artfiles as $artfile) {
 				?>
 				<a href="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"><img src="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"></a>				 	 
-				 <?php }?>
+				<p><i>Click to enlarge</i></p>
+				<?php }?>
 				
 			</p>
 		</div>
