@@ -4,7 +4,7 @@ function prepareName($dirname) {
 	$artistnames = explode("_", $dirname);
 	foreach ($artistnames as $artistname) {
 		
-		echo ucfirst(strtolower($artistname))." ";		
+		echo ucfirst($artistname)." ";		
 	}
 	
 }
