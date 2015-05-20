@@ -33,7 +33,7 @@
 	<div class="row">			
 		<!-- about -->
 		<div class="large-12 large-offset-0 medium-10 medium-offset-1 small-10 small-offset-1 border-left-open columns margin-bottom-5-em">
-			<h1 class="text-center">#LocalNonSculpture</h1>
+			<h1 class="text-center">#LocalNon #Sculpture</h1>
 			<h2 class="text-center">#ADAF2015 #ThisIsSculpture</h2>
 		</div>
 		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-5-em">
@@ -52,7 +52,7 @@ only accessible via location-check at the area of the <a href="http://www.adaf.g
 
 		<!-- artists -->		
 		<div class="large-12 large-offset-0 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em border-right-open">
-		<h1 class="text-center">ParticipatingArtists</h1>
+		<h1 class="text-center">Participating artists</h1>
 		</div>
 		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-10-em">
 			<h2 class="text-center">2. WHO?</h2><br><br>
@@ -76,9 +76,10 @@ only accessible via location-check at the area of the <a href="http://www.adaf.g
 			<h2 class="text-center">3. WHERE?</h2><br><br>
 			<p class="text-center">
 				<img class="location" src="assets/img/location_athens.jpg">
-				<br><br>Diplareios School,<br> Menandrou 6, Athens 
-			</p>
-			<p  class="text-center">Lat: 37.9786119<br>Long: 23.7217339</p>
+			</p><br>
+			<h2 class="text-center">ATHENS DIGITAL ARTS FESTIVAL 2015</h2>
+			<p class="text-center"><br> Menandrou 6, Athens</p>
+			<p  class="text-center">Lat: 37.980817 | Long: 23.724399</p>
 		</div>
 		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 margin-bottom-10-em columns">
 		<hr>
@@ -86,7 +87,7 @@ only accessible via location-check at the area of the <a href="http://www.adaf.g
 		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em">
 			<div id="startgeochecking" class="margin-bottom-5-em">			
 			<h1 class="text-center">Click here to enter this show</h1>
-			<h2 class="text-center">Check access now via<br><span></span>GeoLocationCheck</h2>
+			<h2 class="text-center">Check access now via<br><span></span>GeoLocation-Check</h2>
 			</div>
 			<br>
 			<h2 class="text-center" id="output"></h2>
@@ -97,7 +98,8 @@ only accessible via location-check at the area of the <a href="http://www.adaf.g
 		<hr>
 		</div>
 		<div class="medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em">
-			<p class="text-center">Idea & concept by<br><a href="http://www.floriankuhlmann.com">Florian Kuhlmann</a></p>
+			<p class="text-center">Idea & concept by<br><a href="http://www.floriankuhlmann.com">Florian Kuhlmann</a></p><br>
+			<p class="text-center">Supported by<br><a href="http://www.adaf.gr/2015-edition/m">ADAF 2015</a></p>
 		</div>
 		<!-- check in -->
 		<div class="large-8 large-offset-2 medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em ">
