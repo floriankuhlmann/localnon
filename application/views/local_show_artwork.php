@@ -70,15 +70,12 @@ function prepareName($dirname) {
 	</div>
 	<div class="row">
 		<div class="medium-10 medium-offset-1 small-10 small-offset-1 columns margin-bottom-5-em">
-			<p class="text-center">
 				<?php 
-				 foreach ($artfiles as $artfile) {
+					foreach ($artfiles as $artfile) {
 				?>
-				<a href="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"><img src="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"></a>				 	 
+				<p class="text-center"><a href="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"><img src="<?php echo base_url();?>assets/artwork/<?php echo $artistnamewithunderscore.'/gif/'.$artfile;?>"></a></p>				 	 
 				<p class="text-center"><i>Click to enlarge</i></p>
 				<?php }?>
-				
-			</p>
 		</div>
 	</div>
 	<div class="row">
