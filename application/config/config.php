@@ -14,6 +14,7 @@
 | path to your installation.
 |
 */
+
 # $config['base_url']	= 'http://www.floriankuhlmann.com/localnonsculpture/app/';
 $config['base_url']   = 'http://www.localnonsculpture.net/';
 
