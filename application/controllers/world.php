@@ -66,7 +66,7 @@ class World extends CI_Controller {
         	
 	}
 	
-	public function sneakpreview() {
+	public function VerySecritSneakPreview() {
 
 		
 		$this->authent->logg_in();
