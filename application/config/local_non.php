@@ -7,7 +7,7 @@ $config['LocalNonAppConfig']['local_non_title'] = "the local non";
 /* set the active position 
 this is good for debugging or if you do the setup at home or in your studio and not at the final destination
 */
-$config['LocalNonAppConfig']['active_position'] = "position3";
+$config['LocalNonAppConfig']['active_position'] = "position1";
 
 
 /* Example values my office and studio
