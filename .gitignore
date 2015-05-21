@@ -1,6 +1,6 @@
 .htaccess
 
 # configs
-/application/config/config.php
-/application/config/local_non.php
+application/config/config.php
+application/config/local_non.php
 

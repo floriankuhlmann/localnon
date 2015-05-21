@@ -15,12 +15,13 @@
 |
 */
 <<<<<<< HEAD
+
 # $config['base_url']	= 'http://www.floriankuhlmann.com/localnonsculpture/app/';
 $config['base_url']   = 'http://www.localnonsculpture.net/';
 
 =======
-$config['base_url']   = '';
->>>>>>> 82bef827d821687cc482b82dc5f6727e3897b159
+$config['base_url']   = 'http://localhost/~florian/local-non-sculpture/';
+>>>>>>> 2d59e21450d2afb6a147adaff8aa5199faf8c1f0
 /*
 |--------------------------------------------------------------------------
 | Index File
